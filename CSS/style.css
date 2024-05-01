@@ -42,7 +42,7 @@ header{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     align-content: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-align:center;
 }
 /* This section is redundant: why can't I get justify content to work? */
@@ -81,14 +81,14 @@ footer{
 .topNavBarLi {
     display: inline-block;
     padding: 14px 12px;
-    /* float: right;*/
+    float: right;
 }
 .topNavBarLi a{
     text-decoration:none;
     color:rgb(43, 43, 43);
 }
 .topNavBarLi a:hover{
-    color: orangered;
+    background-color: orangered;
     transition: 0.3s;
 }
 .topNavBar-left{
