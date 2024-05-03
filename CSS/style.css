@@ -48,7 +48,7 @@ header{
 }
 
 .homePage{
-    background-image: url('/Github/UX_UI_HW_17/Assets/Skyrim\ new\ window\ -\ no\ border.png');
+    background-image: url("../Assets/Skyrim_new_window.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
