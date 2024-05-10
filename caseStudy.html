@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- New boostrap connection 5.3 -->
+    <link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- connecting 3.7 Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Case Studies</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
@@ -25,7 +30,7 @@
 </section>
 
 <section>
-    <div class ="caseStudyGridLeft caseStudy1">
+    <div class ="caseStudyGridLeft caseStudy1 hide scrollFade">
 <img src ="./Assets/caseStudy1.png" 
     alt="Yellow diamond with phone screen in front" 
     width="100%" height="auto" class ="caseStudyImg">
@@ -42,7 +47,7 @@
 </div>
 </div>
 
-<div class ="caseStudyGridLeft caseStudy2">
+<div class ="caseStudyGridLeft caseStudy2 hide scrollFade">
     <div class ="caseStudyInfo">
         <h2 class = "caseStudyHeader>">Case Study: Explorely.AI</h2><br>
         <p class ="caseStudyParagraphp">Project description blah blah blah blah blah blah blah blah blah blah blah blah</p>
@@ -59,7 +64,7 @@
     width="100%" height="auto" class ="caseStudyImg">
     </div>
 
-    <div class ="caseStudyGridLeft caseStudy3">
+    <div class ="caseStudyGridLeft caseStudy3 hide scrollFade">
         <img src ="./Assets/caseStudy1.png" 
         alt="Yellow diamond with phone screen in front" 
         width="100%" height="auto" class ="caseStudyImg">
@@ -86,5 +91,7 @@
     </div> 
 
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
